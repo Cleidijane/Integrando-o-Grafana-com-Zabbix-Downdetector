@@ -1,0 +1,1 @@
+# Integrando-o-Grafana-com-Zabbix-Downdetector
