@@ -1,0 +1,7124 @@
+{
+  "__inputs": [
+    {
+      "name": "DS_ZABBIX",
+      "label": "Zabbix",
+      "description": "",
+      "type": "datasource",
+      "pluginId": "alexanderzobnin-zabbix-datasource",
+      "pluginName": "Zabbix"
+    }
+  ],
+  "__elements": {},
+  "__requires": [
+    {
+      "type": "datasource",
+      "id": "alexanderzobnin-zabbix-datasource",
+      "name": "Zabbix",
+      "version": "1.0.0"
+    },
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "10.0.3"
+    },
+    {
+      "type": "panel",
+      "id": "stat",
+      "name": "Stat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "text",
+      "name": "Text",
+      "version": ""
+    }
+  ],
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "datasource",
+          "uid": "grafana"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        },
+        "type": "dashboard"
+      }
+    ]
+  },
+  "description": "",
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "gnetId": 14894,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "background": "#0def9d",
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 19,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Servi&ccedil;os - Institui&ccedil;&otilde;es Financeiras</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "background": "#F5F8FC",
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 10,
+        "x": 14,
+        "y": 0
+      },
+      "id": 130,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Serviços de Streaming</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 0,
+        "y": 2
+      },
+      "id": 24,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/bradesco.png\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 2,
+        "y": 2
+      },
+      "id": 11,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/caixa.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 4,
+        "y": 2
+      },
+      "id": 10,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/bb.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 6,
+        "y": 2
+      },
+      "id": 60,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/nubank.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 8,
+        "y": 2
+      },
+      "id": 23,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/santander.png\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 10,
+        "y": 2
+      },
+      "id": 22,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/itau.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 14,
+        "y": 2
+      },
+      "id": 16,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 16,
+        "y": 2
+      },
+      "id": 17,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://hbomax-images.warnermediacdn.com/2020-05/square%20social%20logo%20400%20x%20400_0.png\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 18,
+        "y": 2
+      },
+      "id": 106,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://cdn.icon-icons.com/icons2/2108/PNG/512/spotify_icon_130826.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 20,
+        "y": 2
+      },
+      "id": 99,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/youtube.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 22,
+        "y": 2
+      },
+      "id": 20,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://cdn.iconscout.com/icon/free/png-512/free-crunchyroll-4062809-3357695.png?f=avif&w=256\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 0,
+        "y": 6
+      },
+      "id": 31,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Bradesco"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 2,
+        "y": 6
+      },
+      "id": 32,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Caixa Econômica Federal"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 4,
+        "y": 6
+      },
+      "id": 27,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Banco do Brasil"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 6,
+        "y": 6
+      },
+      "id": 77,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Nubank"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 8,
+        "y": 6
+      },
+      "id": 30,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Banco Santander"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 10,
+        "y": 6
+      },
+      "id": 29,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Banco Itaú"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 14,
+        "y": 6
+      },
+      "id": 84,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Netflix"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 16,
+        "y": 6
+      },
+      "id": 7,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "HBO"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 18,
+        "y": 6
+      },
+      "id": 123,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Spotify"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 20,
+        "y": 6
+      },
+      "id": 117,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Youtube"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 22,
+        "y": 6
+      },
+      "id": 85,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Crunchyroll"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "background": "#0def9d",
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "id": 131,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Outros Serviços</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "background": "#F5F8FC",
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 10,
+        "x": 14,
+        "y": 8
+      },
+      "id": 133,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Jogos</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 0,
+        "y": 10
+      },
+      "id": 110,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://cdn-icons-png.flaticon.com/512/174/174857.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 2,
+        "y": 10
+      },
+      "id": 101,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/google.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 4,
+        "y": 10
+      },
+      "id": 102,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/github.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 6,
+        "y": 10
+      },
+      "id": 111,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/gmail.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 8,
+        "y": 10
+      },
+      "id": 109,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/teams.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 10,
+        "y": 10
+      },
+      "id": 136,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/outlook.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 14,
+        "y": 10
+      },
+      "id": 14,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://www.tiraduvida.com/wp-content/uploads/2021/10/recarga-jogo-free-fire.jpg\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 16,
+        "y": 10
+      },
+      "id": 108,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://img1.gratispng.com/20180330/aeq/kisspng-grand-theft-auto-v-grand-theft-auto-san-andreas-g-gta-5abe76af1a5ba9.220362951522431663108.jpg\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 18,
+        "y": 10
+      },
+      "id": 98,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbAzmX8k6xQNIQLfxCE23Nt5jWoIHGBmzoN-tnKz3WXYUUs-9a6zFn8GoHFN9oJ3hEG2M&usqp=CAU\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 20,
+        "y": 10
+      },
+      "id": 72,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIKAJWJTNftN1A1mlEZOkI0F0ODvWAMUIOz7YJ1gwyTzv2F6MfIekpbhwcuNG0M-VyenE&usqp=CAU\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 22,
+        "y": 10
+      },
+      "id": 63,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"data:image/jpeg;base64,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\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 0,
+        "y": 14
+      },
+      "id": 129,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "LinkedIn"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 2,
+        "y": 14
+      },
+      "id": 118,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Google"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 4,
+        "y": 14
+      },
+      "id": 119,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "GitHub"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 6,
+        "y": 14
+      },
+      "id": 127,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Gmail"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 8,
+        "y": 14
+      },
+      "id": 126,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Microsoft Teams"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 10,
+        "y": 14
+      },
+      "id": 137,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Outlook"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 14,
+        "y": 14
+      },
+      "id": 52,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Free Fire"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 16,
+        "y": 14
+      },
+      "id": 125,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "GTA 5"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 18,
+        "y": 14
+      },
+      "id": 116,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Call of Duty"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 20,
+        "y": 14
+      },
+      "id": 93,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "League of Legends"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 22,
+        "y": 14
+      },
+      "id": 80,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Dota 2"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "background": "#0def9d",
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 12,
+        "x": 0,
+        "y": 16
+      },
+      "id": 138,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Operadoras</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "background": "#F5F8FC",
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "background": "#0def9d",
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 10,
+        "x": 14,
+        "y": 16
+      },
+      "id": 132,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><h1><span style=\"color:#FFFFFF\"><strong><span>Serviços Essenciais</span></strong></span></h1></center>",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "background": "#F5F8FC",
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 0,
+        "y": 18
+      },
+      "id": 139,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/oi-720x720.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 2,
+        "y": 18
+      },
+      "id": 141,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/tim-960x720.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 4,
+        "y": 18
+      },
+      "id": 143,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/claro-1024x384.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 6,
+        "y": 18
+      },
+      "id": 146,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/vivo-720x720.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 8,
+        "y": 18
+      },
+      "id": 147,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/algar.webp\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 10,
+        "y": 18
+      },
+      "id": 149,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://cdn6.aptoide.com/imgs/8/f/0/8f078fa8899f52f4b8e2eddfb8855e0f_icon.png\" width=\"160px\"/></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 14,
+        "y": 18
+      },
+      "id": 18,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/whatsapp.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 16,
+        "y": 18
+      },
+      "id": 66,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://www.shareicon.net/data/128x128/2015/09/16/101969_facebook_512x512.png\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 18,
+        "y": 18
+      },
+      "id": 61,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://imagepng.org/wp-content/uploads/2017/08/instagram-icone-icon.png\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 20,
+        "y": 18
+      },
+      "id": 70,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://s2-techtudo.glbimg.com/wmdSP2gnELfjTurV7E89syZcL_o=/0x0:400x400/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/e/D/6e24vbQSaRBG2ScINKIQ/imagem-6.jpg\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "gridPos": {
+        "h": 4,
+        "w": 2,
+        "x": 22,
+        "y": 18
+      },
+      "id": 134,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<center><img src=\"https://relatosti.com.br/wp-content/uploads/2021/08/telegram.webp\" width=\"160px\" /></center>\n",
+        "mode": "html"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": ""
+          },
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": ""
+          },
+          "host": {
+            "filter": ""
+          },
+          "item": {
+            "filter": ""
+          },
+          "mode": 0,
+          "options": {
+            "showDisabledItems": false,
+            "skipEmptyValues": false
+          },
+          "refId": "A",
+          "resultFormat": "time_series",
+          "table": {
+            "skipEmptyValues": false
+          },
+          "triggers": {
+            "acknowledged": 2,
+            "count": true,
+            "minSeverity": 3
+          }
+        }
+      ],
+      "type": "text"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 0,
+        "y": 22
+      },
+      "id": 140,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Oi"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 2,
+        "y": 22
+      },
+      "id": 142,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "TIM"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 4,
+        "y": 22
+      },
+      "id": 144,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Claro"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 6,
+        "y": 22
+      },
+      "id": 145,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Vivo"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 8,
+        "y": 22
+      },
+      "id": 148,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Algar"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 10,
+        "y": 22
+      },
+      "id": 150,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Nextel"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 14,
+        "y": 22
+      },
+      "id": 90,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Whatsapp"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 16,
+        "y": 22
+      },
+      "id": 83,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Facebook"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 18,
+        "y": 22
+      },
+      "id": 78,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Instagram"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 20,
+        "y": 22
+      },
+      "id": 91,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Twitter"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "alexanderzobnin-zabbix-datasource",
+        "uid": "${DS_ZABBIX}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            {
+              "options": {
+                "from": 0,
+                "result": {
+                  "text": "ESTÁVEL"
+                },
+                "to": 1.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 2,
+                "result": {
+                  "text": "INTERMITÊNTE"
+                },
+                "to": 2.9
+              },
+              "type": "range"
+            },
+            {
+              "options": {
+                "from": 3,
+                "result": {
+                  "text": "INSTÁVEL"
+                },
+                "to": 5
+              },
+              "type": "range"
+            }
+          ],
+          "noValue": "SEM DADOS",
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green"
+              },
+              {
+                "color": "#EAB839",
+                "value": 2
+              },
+              {
+                "color": "dark-red",
+                "value": 3
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 2,
+        "w": 2,
+        "x": 22,
+        "y": 22
+      },
+      "id": 135,
+      "options": {
+        "colorMode": "background",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "last"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "text": {},
+        "textMode": "value"
+      },
+      "pluginVersion": "10.0.3",
+      "targets": [
+        {
+          "application": {
+            "filter": "Site"
+          },
+          "countTriggersBy": "",
+          "datasource": {
+            "type": "alexanderzobnin-zabbix-datasource",
+            "uid": "${DS_ZABBIX}"
+          },
+          "functions": [],
+          "group": {
+            "filter": "Templates RR"
+          },
+          "host": {
+            "filter": "Downdetector"
+          },
+          "item": {
+            "filter": "Telegram"
+          },
+          "itemTag": {
+            "filter": "Application: Site"
+          },
+          "macro": {
+            "filter": ""
+          },
+          "options": {
+            "count": true,
+            "disableDataAlignment": false,
+            "minSeverity": 3,
+            "showDisabledItems": false,
+            "skipEmptyValues": false,
+            "useTrends": "default",
+            "useZabbixValueMapping": false
+          },
+          "proxy": {
+            "filter": ""
+          },
+          "queryType": "0",
+          "refId": "A",
+          "resultFormat": "time_series",
+          "schema": 12,
+          "table": {
+            "skipEmptyValues": false
+          },
+          "tags": {
+            "filter": ""
+          },
+          "textFilter": "",
+          "trigger": {
+            "filter": ""
+          },
+          "triggers": {
+            "acknowledged": 2
+          }
+        }
+      ],
+      "type": "stat"
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-5m",
+    "to": "now"
+  },
+  "timepicker": {
+    "hidden": true,
+    "refresh_intervals": [
+      "10s",
+      "30s",
+      "1m",
+      "5m",
+      "15m",
+      "30m",
+      "1h",
+      "2h",
+      "1d"
+    ]
+  },
+  "timezone": "",
+  "title": "Downdetector",
+  "uid": "341fZ0n7z",
+  "version": 13,
+  "weekStart": ""
+}
